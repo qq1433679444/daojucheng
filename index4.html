@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>腾讯游戏道聚城-集道具聚欢乐</title>
+		<link rel="shortcut icon" href="bitbug_title.ico" /> 
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/js1.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/css1.css" />
+	</head>
+
+	<body>
+		<div id="tou">
+			<div class="main">
+				<div class="main_left">
+					<a class="main1" href="">手机版</a>
+					<i>|</i>
+					<a href="">游戏币交易</a>
+					<i>|</i>
+					<a href="">Q币充值</a>
+					<i>|</i>
+					<a href="">心悦游戏家</a>
+				</div>
+
+				<div class="main_right">
+					<ul>
+						<li>您还未登录，请
+							<a href="">登录</a>
+						</li>
+						<i>|</i>
+						<li>
+							<a href="">我的订单</a>
+						</li>
+						<i>|</i>
+						<li>
+							<a href="">个人中心</a>
+						</li>
+						<i>|</i>
+						<li class="luntan">
+							<a href="" class="luntanx">官方论坛</a>
+							<div class="luntans">
+								<a class="luntans_one" href="">官方论坛</a>
+								<a href="">官方微博</a>
+							</div>
+						</li>
+						<i>|</i>
+						<li>
+							<a href="">帮助中心</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="logoqu">
+			<div class="logoqu_wai">
+				<div class="logoqu_wai_left">
+					<img src="imgs/logo.png"/>
+				</div>
+				<div class="logoqu_wai_center">
+					<div class="cen_sousuo">
+						<div class="youxi">
+							<a class="xuanyou" href="">选择游戏</a>
+							
+							<div class="youxibiao">
+							<ul>
+								<li>
+									<h6>角色扮演：</h6>
+									<a href="">怪物猎人OL </a>|
+									<a href="">QQ仙灵 </a>|
+									<a href="">天涯明月刀 </a>|
+									<a href="">上古世纪 </a>|
+									<a href="">斗战神 </a>|
+									<a href="">轩辕传奇 </a>|
+									<a href="">寻仙 </a>|
+									<a href="">剑灵 </a>|
+									<a href="">天堂2 </a>|
+									<a href="">天堂 </a>|
+									<a href="">幻想世界 </a>|
+									<a href="">QQ仙侠传 </a>|
+									<a href="">第九大陆 </a>|<br />
+									<a href="">地下城与勇士 </a>|
+									<a href="">QQ三国 </a>|
+									<a href="">御龙在天 </a>|
+									<a href="">御龙在天经典版</a>|
+									<a href="">自由幻想 </a>|<br />
+									<a href="">QQ幻想 </a>|
+									<a href="">刀剑2 </a>|
+									<a href="">疾风之刃</a>
+								</li>
+								<li>
+									<h6 class="biaoti2">竞技游戏：</h6>
+									<a href="">极品飞车OL </a>|
+									<a href="">战争雷霆 </a>|
+									<a href="">神之浩劫 </a>|
+									<a href="">使命召唤codol </a>|
+									<a href="">英雄联盟 </a>|<br />
+									<a href="">逆战 </a>|
+									<a href="">穿越火线 </a>|
+									<a href="">NBA2KOL </a>|
+									<a href="">战地之王 </a>|
+									<a href="">枪神纪 </a>|
+									<a href="">FIFA Online3</a>
+								</li>
+								<li>
+									<h6 class="biaoti3">休闲游戏：</h6>
+									<a href="">王牌对决 </a>|
+									<a href="">QQ炫舞 </a>|
+									<a href="">炫舞时代 </a>|
+									<a href="">QQ飞车 </a>|
+									<a href="">QQ音速</a>
+								</li>
+								<li style="border-bottom: none;">
+									<h6 class="biaoti4">网页游戏：</h6>
+									<a href="">猎鱼达人3D </a>|
+									<a href="">夜店之王 </a>|
+									<a href="">部落守卫战 </a>|
+									<a href="">Q宠大乐斗 </a>|
+									<a href="">烽火战国 </a>|<br />
+									<a href="">七雄争霸 </a>|
+									<a href="">火影忍者OL </a>|
+									<a href="">英魂之刃</a>
+									
+								</li>
+							</ul>
+						    </div>
+						</div>
+						
+						
+						
+						<input type="text" name="" id="sousuo" value="" placeholder="请选择游戏搜索道具"/>
+						
+					</div>
+					<div class="soutu">
+							
+					</div>
+				</div>
+				<div class="logoqu_wai_right">
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="nav">
+			<div class="daohang">
+				<div class="all_left">
+					<a class="fenlei" href="">所有游戏分类<i></i></a>
+					<a href=""></a>
+					<ul class="liebiao" style="display: none;">
+						<li class="fenleite"><a class="tu" href="">所有游戏分类</a></li>
+						<li class="fenleia"><a class="tu1" href="">热门游戏</a><i></i></li>
+						<li class="fenleia"><a class="tu2" href="">角色扮演</a><i></i></li>
+						<li class="fenleia"><a class="tu3" href="">竞技游戏</a><i></i></li>
+						<li class="fenleia"><a class="tu4" href="">休闲游戏</a><i></i></li>
+						<li class="fenleia"><a class="tu5" href="">网页游戏</a><i></i></li>
+					</ul>
+					<div class="fenleib" >
+						<div class="b b1" style="width: 252px;">
+							<div class="b_l">
+								<a href="">英魂之刃</a>
+								<a href="">战争雷霆</a>
+								<a href="">英雄联盟</a>
+								<a href="">穿越火线</a>
+								<a href="">怪物猎人OL</a>
+								<a href="">使命召唤</a>
+								<a href="">上古世纪</a>
+								<a href="">天涯明月刀</a>
+								<a href="">FIFA Online3</a>
+					     	</div>
+						    <div style="border-left: 1px solid #f2f2f2;" class="b_o">
+							    <a href="">剑灵</a>
+								<a href="">逆战</a>
+								<a href="">QQ飞车</a>
+								<a href="">御龙在天</a>
+								<a href="">御龙在天经典版</a>
+								<a href="">猎鱼达人3D</a>
+								<a href="">极品飞车OL</a>
+					     	</div>
+						</div>
+						
+						<div class="b b2" style="width: 378px;">
+							<div class="b_l">
+								<a href="">怪物猎人OL</a>
+								<a href="">上古世纪</a>
+								<a href="">天涯明月刀</a>
+								<a href="">剑灵</a>
+								<a href="">地下城与勇士</a>
+								<a href="">疾风之刃</a>
+								<a href="">QQ三国</a>
+								<a href="">寻仙</a>
+								<a href="">斗战神</a>
+					     	</div>
+						    <div style="border-left: 1px solid #f2f2f2;" class="b_o">
+							    <a href="">轩辕传奇</a>
+								<a href="">御龙在天</a>
+								<a href="">御龙在天经典版</a>
+								<a href="">自由幻想</a>
+								<a href="">天堂</a>
+								<a href="">QQ仙侠传</a>
+								<a href="">天堂2</a>
+								<a href="">刀剑2</a>
+								<a href="">幻想世界</a>
+
+					     	</div>
+					     	<div style="border-left: 1px solid #f2f2f2;" class="b_c">
+							    <a href="">QQ幻想</a>
+								<a href="">QQ仙灵</a>
+								<a href="">冒险岛2</a>
+					     	</div>
+						</div>
+						
+						
+						<div class="b b3" style="width: 252px;">
+							<div class="b_l">
+								<a href="">战争雷霆</a>
+								<a href="">英雄联盟</a>
+								<a href="">穿越火线</a>
+								<a href="">使命召唤</a>
+								<a href="">逆战</a>
+								<a href="">NBA2KOL</a>
+								<a href="">战地之王</a>
+								<a href="">枪神纪</a>
+
+					     	</div>
+						    <div style="border-left: 1px solid #f2f2f2;" class="b_o">
+							    <a href="">FIFA Online3</a>
+								<a href="">极品飞车OL</a>
+
+					     	</div>
+						</div>
+						
+						<div class="b b4" style="width: 125px;">
+							<div class="b_l">
+								<a href="">QQ炫舞</a>
+								<a href="">炫舞时代</a>
+								<a href="">QQ音速</a>
+								<a href="">QQ飞车</a>
+					        </div> 
+						</div>
+						
+						<div class="b b5" style="width: 125px;">
+							<div class="b_l">
+								<a href="">部落守卫战</a>
+								<a href="">Q宠大乐斗</a>
+								<a href="">烽火战国</a>
+								<a href="">七雄争霸</a>
+								<a href="">火影忍者OL</a>
+								<a href="">英魂之刃</a>
+								<a href="">猎鱼达人3D</a>
+					     	</div>
+						 
+						</div>
+						
+					</div>
+				</div>
+				<ul class="all_center">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="huodongzhongxin.html">活动中心</a></li>
+					<li><a href="juchengpin.html">聚成品</a></li>
+					<li style=""><a href="index4.html" style="background: rgb(247,74,74);
+	border-bottom: 3px solid rgb(206,53,53);
+	color: #FFFFFF;">手游中心</a></li>
+					<li><a href="judou.html">聚豆商城</a></li>
+					<li><a href="geren.html">个人中心</a></li>
+				</ul>
+				<div class="all_right">
+					<a href="">
+						<i><img src="imgs/gouwuche.png"/></i>
+						购物车
+						<div id="ling">
+							0
+						</div>
+					</a>
+				</div>
+		    </div>
+		</div>
+		<div id="neirong">
+			<div id="div1">
+				<a style="color: #808080;" href="">道聚城&nbsp;&nbsp;> 手游中心</a>
+			</div>
+			<div id="div2">
+				<div id="div2_1">
+					<a href=""><img src="img/tu4.jpg"/></a>
+					<a href=""><img src="img/tu5.jpg"/></a>
+					<a href=""><img src="img/tu6.jpg"/></a>
+					<a href=""><img src="img/tu7.jpg"/></a>
+				</div>
+				<div id="div2_2">
+					<div><a href="">王者荣耀豪华礼包</a></div>
+					<div><a href="">奇迹觉醒钻石购</a></div>
+					<div><a href="">QQ华夏6元抽</a></div>
+					<div><a href="">CFM钻手抽永久M4A1-黑龙</a></div>
+				</div>
+				<div id="div2_3">
+					<h1>今日推荐</h1>
+					<div id="xiazai">
+						<h2>下载游戏</h2>
+					</div>
+				</div>
+			</div>
+			<div id="div3">
+				<div class="div3_1">
+					<img src="img/tu10.png" id="img1"/>
+						<div id="wenzi">
+							<h1>疯狂动物城</h1>
+							<h2>疯狂动物商城</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu11.png" id="img1"/>
+						<div id="wenzi">
+							<h1>斗破苍穹：斗帝之路</h1>
+							<h2>今日还有8个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu12.png" id="img1"/>
+						<div id="wenzi">
+							<h1>电击文库：零境交错</h1>
+							<h2>今日还有16个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu13.png" id="img1"/>
+						<div id="wenzi">
+							<h1>妖神记</h1>
+							<h2>6个道具售卖中</h2>
+							<h2>今日还有15个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu14.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 我叫MT4</h1>
+							<h2>今日还有15个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu15.png" id="img1"/>
+						<div id="wenzi">
+							<h1>圣斗士星矢</h1>
+							<h2>今日还有14个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu16.png" id="img1"/>
+						<div id="wenzi">
+							<h1>自由幻想手游</h1>
+							<h2>10个道具售卖中</h2>
+							<h2>今日还有17个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu17.png" id="img1"/>
+						<div id="wenzi">
+							<h1>FIFA足球世界</h1>
+							<h2>5个道具售卖中</h2>
+							<h2>今日还有16个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu18.png" id="img1"/>
+						<div id="wenzi">
+							<h1>魔力宝贝</h1>
+							<h2>今日还有17个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu19.png" id="img1"/>
+						<div id="wenzi">
+							<h1>QQ炫舞手游</h1>
+							<h2> 108个道具售卖中</h2>
+							<h2>今日还有13个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu20.png" id="img1"/>
+						<div id="wenzi">
+							<h1>绝地求生 全军出击</h1>
+							<h2>今日还有10个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu21.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 绝地求生：刺激战场</h1>
+							<h2>今日还有10个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu22.png" id="img1"/>
+						<div id="wenzi">
+							<h1>QQ飞车手游</h1>
+							<h2>今日还有14个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu23.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 华夏手游版</h1>
+							<h2>15个道具售卖中</h2>
+							<h2> 今日还有10个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu24.png" id="img1"/>
+						<div id="wenzi">
+							<h1>真龙霸业</h1>
+							<h2>16个道具售卖中</h2>
+							<h2>今日还有11个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu25.png" id="img1"/>
+						<div id="wenzi">
+							<h1>最强NBA</h1>
+							<h2>7个道具售卖中</h2>
+							<h2>今日还有13个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu26.png" id="img1"/>
+						<div id="wenzi">
+							<h1>魂斗罗</h1>
+							<h2>4个道具售卖中</h2>
+							<h2> 今日还有17个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>50
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu27.png" id="img1"/>
+						<div id="wenzi">
+							<h1>奇迹觉醒</h1>
+							<h2> 22个道具售卖中</h2>
+							<h2> 今日还有13个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu28.png" id="img1"/>
+						<div id="wenzi">
+							<h1>王者荣耀</h1>
+							<h2> 208个道具售卖中</h2>
+							<h2>今日还有12个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu29.png" id="img1"/>
+						<div id="wenzi">
+							<h1>穿越火线：枪战王者</h1>
+							<h2>80个道具售卖中</h2>
+							<h2> 今日还有18个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu30.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 天天酷跑</h1>
+							<h2>40个道具售卖中</h2>
+							<h2>今日还有14个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu31.png" id="img1"/>
+						<div id="wenzi">
+							<h1>轩辕传奇</h1>
+							<h2> 9个道具售卖中</h2>
+							<h2>今日还有10个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu32.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 英雄无敌</h1>
+							<h2>10个道具售卖中</h2>
+							<h2> 今日还有10个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu33.png" id="img1"/>
+						<div id="wenzi">
+							<h1>乱世王者</h1>
+							<h2> 37个道具售卖中</h2>
+							<h2>今日还有15个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu34.png" id="img1"/>
+						<div id="wenzi">
+							<h1>天龙八部手游</h1>
+							<h2>15个道具售卖中</h2>
+							<h2>今日还有12个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu35.png" id="img1"/>
+						<div id="wenzi">
+							<h1>寻仙</h1>
+							<h2>6个道具售卖中</h2>
+							<h2>今日还有12个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu36.png" id="img1"/>
+						<div id="wenzi">
+							<h1>龙之谷</h1>
+							<h2>8个道具售卖中</h2>
+							<h2> 今日还有4个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/53.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu37.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 全民飞机大战</h1>
+							<h2>38个道具售卖中</h2>
+							<h2>今日还有17个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu38.png" id="img1"/>
+						<div id="wenzi">
+							<h1>剑侠情缘</h1>
+							<h2>30个道具售卖中</h2>
+							<h2> 今日还有18个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/53.png" id="img2"/>
+						</div>
+				
+				</div>
+				<div class="div3_1">
+					<img src="img/tu39.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 火影忍者手游</h1>
+							<h2> 24个道具售卖中</h2>
+							<h2>今日还有1个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/51.png" id="img2"/>
+						</div>
+				
+				</div>
+				
+				<div class="div3_1">
+					<img src="img/tu40.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 梦幻诛仙</h1>
+							<h2>11个道具售卖中</h2>
+							<h2>今日还有7个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/53.png" id="img2"/>
+						</div>
+				
+				</div>
+				
+				<div class="div3_1">
+					<img src="img/tu41.png" id="img1"/>
+						<div id="wenzi">
+							<h1>仙剑奇侠传OL</h1>
+							<h2>8个道具售卖中</h2>
+							<h2>今日还有8个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/53.png" id="img2"/>
+						</div>
+				
+				</div>
+				
+				<div class="div3_1">
+					<img src="img/tu42.png" id="img1"/>
+						<div id="wenzi">
+							<h1> 捕鱼来了</h1>
+							<h2> 5个道具售卖中</h2>
+							<h2>今日还有6个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/52.png" id="img2"/>
+						</div>
+				
+				</div>
+				
+				<div class="div3_1">
+					<img src="img/tu43.png" id="img1"/>
+						<div id="wenzi">
+							<h1>御龙在天手游</h1>
+							<h2>7个道具售卖中</h2>
+							<h2>今日还有5个礼包待领取</h2>
+						</div>
+						<div id="tupian">
+							<img src="img/53.png" id="img2"/>
+						</div>
+				
+				</div>
+			</div>
+		</div> 
+			<div class="footw">
+
+			<div class="foot">
+				<div class="foot_top">
+					<div class="top_no">
+						<h4>
+				    			<i></i>
+				    			我是新手
+				    		</h4>
+						<ul>
+							<li>什么是道聚城</li>
+							<li>如何购买</li>
+							<li>如何赠送</li>
+							<li>如何获取聚豆</li>
+						</ul>
+					</div>
+					<div class="top_no">
+						<h4>
+				    			<i style="background: url(imgs/wan2.png) no-repeat left center;"></i>
+				    			个人中心
+				    		</h4>
+						<ul>
+							<li>发货时间</li>
+							<li>如何领取</li>
+							<li>补发规则</li>
+							<li>Vip价定义</li>
+							<li>道具状态定义</li>
+						</ul>
+					</div>
+					<div class="top_no">
+						<h4>
+				    			<i style="background: url(imgs/wan3.png) no-repeat left center;"></i>
+				    			支付方式
+				    		</h4>
+						<ul>
+							<li>支付方式</li>
+							<li>购物点支付</li>
+							<li>如何充值</li>
+
+						</ul>
+					</div>
+					<div class="top_no">
+						<h4>
+				    			<i style="background: url(imgs/wan4.png) no-repeat left center;"></i>
+				    			腾讯在线服务
+				    		</h4>
+						<ul>
+							<li>腾讯官方在线客服</li>
+
+						</ul>
+					</div>
+
+					<div class="top_list">
+						<ul>
+							<li>
+								<img src="imgs/erwei1.png" />
+								<p>掌上道聚城</p>
+							</li>
+							<li>
+								<img src="imgs/erwei2.png" />
+								<p>道聚城公众号</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="foot_bottom">
+					<div class="bot_cen">
+						<p>
+							<a href="">腾讯互动娱乐 </a>|
+							<a href="">服务条款 </a>|
+							<a href="">广告服务 </a>|
+							<a href="">腾讯游戏招聘 </a>|
+							<a href="">腾讯游戏客服 </a>|
+							<a href="">游戏地图 </a>|
+							<a href="">成长守护平台 </a>|
+							<a href="">商务合作 </a>|
+							<a href="">网站导航 </a>
+						</p>
+						<p>COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</p>
+						<p class="e">腾讯公司 版权所有</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/toubu.js"></script>
+	</body>
+</html>
